@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="container">
+
+    <div id="filtres">
+        <button class="active btn">TOUT</button>
+        {% for category, articles in categories %}
+            <button class="btn">{{ category }}</button>
+        {% endfor %}
+        <div class="spacer"></div>
+    </div>
+
+    <div id="projets">
+
+        {% for article in articles %}
+        <div class="contenu" style="{{ article.background }}" data-tag="{{ article.category }}">
+            <div class="caroussel">
+                <div class="cursor left prev"></div>
+                <div class="cursor right next"></div>
+                <ul class="serie">
+                    {% for image in article.images %}
+                        <li {% if loop.first %} class="active"{% endif %}><img src="projets/{{ article.slug }}/{{ image }}"></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <h1>{{ article.title }}</h1>
+            <div class="texte">
+                {{ article.content }}
+            </div>
+            <div class="details">
+                <span>{{ article.place }}, {{ article.date|strftime('%Y') }}</span>
+                <span>{{ article.partners }}</span>
+                <span>{{ article.category }}</span>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+{% endblock %}
