@@ -123,14 +123,17 @@ a:hover {
   color: #8B35FF;
 }
 
-#categoriesmenu {
+#menu {
   width: 100%;
   position: fixed;
-  text-align: center;
   z-index: 100000;
   background-color: #FFFFFF;
   padding: 10px;
   font-size: 1em;
+}
+
+#menu p{
+  display: inline-block;
 }
 
 sup {

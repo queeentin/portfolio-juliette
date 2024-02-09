@@ -15,8 +15,11 @@ DEFAULT_LANG = "fr"
 PAGE_URL = "{slug}.html"
 PAGE_SAVE_AS = "{slug}.html"
 
+PAGE_LANG_URL = "{lang}/{slug}.html"
+PAGE_LANG_SAVE_AS = "{lang}/{slug}.html"
+
 # Don"t generate useless pages on authors, categories, etc.
-DIRECT_TEMPLATES = ["index"]
+DIRECT_TEMPLATES = []
 AUTHOR_SAVE_AS = ""
 ARCHIVES_SAVE_AS = ""
 ARTICLE_SAVE_AS = ""

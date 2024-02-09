@@ -21,7 +21,7 @@
                 <div class="cursor right next"></div>
                 <ul class="serie">
                     {% for image in article.images %}
-                        <li {% if loop.first %} class="active"{% endif %}><img src="projets/{{ article.slug }}/{{ image }}"></li>
+                        <li {% if loop.first %} class="active"{% endif %}><img src="{{ SITEURL }}/projets/{{ article.slug }}/{{ image }}"></li>
                     {% endfor %}
                 </ul>
             </div>

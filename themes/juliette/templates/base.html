@@ -12,11 +12,19 @@
 </head>
 
     <body>
-    <div id="categoriesmenu" style="color: black;">
-        <p id="contact"><a href="index.html" style="text-decoration: none;">JULIETTE NIER</a> </p>
-        <p id="apropos"><a href="a-propos.html" style="text-decoration: none;">À PROPOS</a></p>
-        <p id="identity"> <a href="projets.html" style="text-decoration: none; color:#7B1EFF">PROJETS </a> </p>
-        <p id="ateliers"> <a href="portfolio_en_jnier-2024.pdf" style="text-decoration: none;">PORTFOLIO [EN]</a> </p>
+    <div id="menu" style="color: black;">
+        {% if page.lang == "fr" %}
+            {% for page in pages | sort(attribute='order') if page.lang == "fr"  %}
+                <a href="{{ page.slug }}.html">{{ page.title }}</a>
+            {% endfor %}
+            <a href="en/{{ page.slug }}">🇬🇧</a>
+        {% else %}
+            <a href="index.html">Juliette Nier</a>
+            {% for page in pages | sort(attribute='order') if page.lang == "en" %}
+                <a href="{{ page.slug }}">{{ page.title }}</a>
+            {% endfor %}
+            <a href="../{{ page.slug }}">🇫🇷</a>
+        {% endif %}
     </div>
 
 {% block content %}{% endblock %}
