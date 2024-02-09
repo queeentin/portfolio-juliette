@@ -7,15 +7,15 @@ STATIC_PATHS = ["projets"]
 
 THEME = "themes/juliette"
 
-TIMEZONE = "Europe/Zurich"
+TIMEZONE = "UTC"
 
 DEFAULT_LANG = "fr"
 
 # Put pages at the root of the website
-PAGE_URL = "{slug}.html"
+PAGE_URL = "{slug}"
 PAGE_SAVE_AS = "{slug}.html"
 
-PAGE_LANG_URL = "{lang}/{slug}.html"
+PAGE_LANG_URL = "{lang}/{slug}"
 PAGE_LANG_SAVE_AS = "{lang}/{slug}.html"
 
 # Don"t generate useless pages on authors, categories, etc.
@@ -23,6 +23,7 @@ DIRECT_TEMPLATES = []
 AUTHOR_SAVE_AS = ""
 ARCHIVES_SAVE_AS = ""
 ARTICLE_SAVE_AS = ""
+ARTICLE_LANG_SAVE_AS = ""
 CATEGORY_SAVE_AS = ""
 
 # Feed generation is usually not desired when developing

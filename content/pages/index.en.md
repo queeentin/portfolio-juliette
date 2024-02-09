@@ -1,5 +1,5 @@
 Title: Juliette Nier
-Slug: index
+Slug: home
 Lang: en
 Date: 2024-01-01
 Status: published

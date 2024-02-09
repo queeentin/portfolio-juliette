@@ -13,18 +13,7 @@
 
     <body>
     <div id="menu" style="color: black;">
-        {% if page.lang == "fr" %}
-            {% for page in pages | sort(attribute='order') if page.lang == "fr"  %}
-                <a href="{{ page.slug }}.html">{{ page.title }}</a>
-            {% endfor %}
-            <a href="en/{{ page.slug }}">🇬🇧</a>
-        {% else %}
-            <a href="index.html">Juliette Nier</a>
-            {% for page in pages | sort(attribute='order') if page.lang == "en" %}
-                <a href="{{ page.slug }}">{{ page.title }}</a>
-            {% endfor %}
-            <a href="../{{ page.slug }}">🇫🇷</a>
-        {% endif %}
+        
     </div>
 
 {% block content %}{% endblock %}
