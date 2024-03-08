@@ -12,11 +12,11 @@ TIMEZONE = "UTC"
 DEFAULT_LANG = "fr"
 
 # Put pages at the root of the website
-PAGE_URL = "{slug}"
-PAGE_SAVE_AS = "{slug}.html"
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
 
-PAGE_LANG_URL = "{lang}/{slug}"
-PAGE_LANG_SAVE_AS = "{lang}/{slug}.html"
+PAGE_LANG_URL = "{lang}/{slug}/"
+PAGE_LANG_SAVE_AS = "{lang}/{slug}/index.html"
 
 # Don"t generate useless pages on authors, categories, etc.
 DIRECT_TEMPLATES = []
