@@ -109,11 +109,6 @@ body {
   letter-spacing: 0px;
 }
 
-
-
-
-
-
 a {
   color: inherit;
   text-decoration: underline;
@@ -125,15 +120,26 @@ a:hover {
 
 #menu {
   width: 100%;
-  position: fixed;
-  z-index: 100000;
+  position: sticky;
+  z-index: 10;
   background-color: #FFFFFF;
-  padding: 10px;
+  padding: 1.2em;
   font-size: 1em;
+  top: 0;
 }
 
-#menu p{
-  display: inline-block;
+#menu ul{
+  display: flex;
+  gap: 1em;
+}
+
+#menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#menu .active{
+  color: #7B1EFF;
 }
 
 sup {
@@ -288,11 +294,7 @@ h1 {
   text-align: center;
 }
 
-
-
 #container {
-  position: absolute;
-  top: 3.5em;
   width: 100%;
   left: 0%;
   background-position: center;

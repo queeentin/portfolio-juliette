@@ -1,4 +1,4 @@
-Title: BIFURCATIONS QUANTIQUES
+Title: Bifurcations quantiques
 Date: 2023-01-01 00:00
 Lang: fr
 Place: Orsay

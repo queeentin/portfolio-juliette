@@ -25,13 +25,13 @@
     <div id="projets">
 
         {% for article in rightArticles %}
-                <div class="contenu" style="{{ article.background }}" data-tag="{{ article.category|unique }}">
+                <div class="contenu" style="{{ article.background }}" data-tag="{{ article.category }}">
                     <div class="caroussel">
                         <div class="cursor left prev"></div>
                         <div class="cursor right next"></div>
                         <ul class="serie">
                             {% for image in article.images %}
-                                <li {% if loop.first %} class="active"{% endif %}><img src="{{ SITEURL }}/projets/{{ article.slug }}/{{ image }}"></li>
+                                <li {% if loop.first %} class="active"{% endif %}><img src="{{ SITEURL }}/posts/{{ article.slug }}/{{ image }}"></li>
                             {% endfor %}
                         </ul>
                     </div>

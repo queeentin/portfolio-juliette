@@ -12,11 +12,53 @@
 </head>
 
     <body>
-    <div id="menu" style="color: black;">
+    <!-- <div id="menu" style="color: black;">
+        <p><a href="{{ page.url }}">{{ page.title }}</a></p>
         <p id="contact"><a href="index.html" style="text-decoration: none; color:#7B1EFF">JULIETTE NIER</a> </p>
-		<p id="apropos"><a href="cv-nier.html" style="text-decoration: none;">À PROPOS</a></p>
-		<p id="identity"> <a href="projets.html" style="text-decoration: none; ">PROJETS </a> </p>
-		<p id="ateliers"> <a href="portfolio_en_jnier-2024.pdf" style="text-decoration: none;">PORTFOLIO [EN]</a> </p>
+		<p id="apropos"><a href="a-propos" style="text-decoration: none;">À PROPOS</a></p>
+		<p id="identity"> <a href="projets" style="text-decoration: none; ">PROJETS </a> </p>
+		<p id="ateliers"> <a href="en" style="text-decoration: none;">PORTFOLIO [EN]</a> </p>
+    </div> -->
+
+    {% set english_pages = [] %}
+    {% set french_pages = [] %}
+    {% set actual_slug = page.slug %}
+    {% for page in pages %}
+        {% if page.lang == 'en' %}
+            {% set english_pages = english_pages.append(page) %}
+        {% else %}
+            {% set french_pages = french_pages.append(page) %}
+        {% endif %}
+    {% endfor %}
+
+    <div id="menu" style="color: black">
+        {% if page.lang == "en" %}
+            <ul>
+                {% for page in english_pages %}
+                    {% if page.slug == actual_slug %}
+                        <li class="active"><a href="{{ page.slug }}">{{ page.title }}</a></li>
+                    {% elif page.slug == "home" %}
+                        <li><a href="index.html">Juliette Nier</a></li>
+                    {% else %}
+                        <li><a href="{{ page.slug }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                <li><a href="../{{ page.translation }}">FR</a></li>
+            </ul>
+        {% else %}
+            <ul>
+                {% for page in french_pages %}
+                    {% if page.slug == actual_slug %}
+                        <li class="active"><a href="{{ page.slug }}">{{ page.title }}</a></li>
+                    {% elif page.slug == "accueil" %}
+                        <li><a href="index.html">Juliette Nier</a></li>
+                    {% else %}
+                        <li><a href="{{ page.slug }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                <li><a href="../en/{{ page.translation }}">EN</a></li>
+            </ul>
+        {% endif %}
     </div>
 
 {% block content %}{% endblock %}
