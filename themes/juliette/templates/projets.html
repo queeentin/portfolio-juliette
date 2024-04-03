@@ -2,21 +2,30 @@
 
 {% block content %}
 
+{% set rightArticles = [] %}
+{% for article in articles if article.lang == page.lang %}
+    {{ rightArticles.append(article) or "" }}
+{% endfor %}
+
+{% set rightCats = [] %}
+{% for cat in rightArticles %}
+    {{ rightCats.append(cat.category) or "" }}
+{% endfor %}
+
 <div id="container">
 
     <div id="filtres">
         <button class="active btn">TOUT</button>
-        {% for category, articles in categories %}
-            <button class="btn">{{ category }}</button>
+        {% for el in rightCats | unique %}
+            <button class="btn">{{ el }}</button>
         {% endfor %}
         <div class="spacer"></div>
     </div>
 
     <div id="projets">
 
-        {% for article in articles %}
-            {% if article.lang == "en" %}
-                <div class="contenu" style="{{ article.background }}" data-tag="{{ article.category }}">
+        {% for article in rightArticles %}
+                <div class="contenu" style="{{ article.background }}" data-tag="{{ article.category|unique }}">
                     <div class="caroussel">
                         <div class="cursor left prev"></div>
                         <div class="cursor right next"></div>
@@ -33,10 +42,9 @@
                     <div class="details">
                         <span>{{ article.place }}, {{ article.date|strftime('%Y') }}</span>
                         <span>{{ article.partners }}</span>
-                        <span>{{ article.category }}</span>
+                        <span>{{ article.category|unique }}</span>
                     </div>
                 </div>
-            {% endif %}
         {% endfor %}
 
     </div>

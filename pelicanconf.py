@@ -3,7 +3,7 @@ SITENAME = "Juliette Nier"
 SITEURL = ""
 
 PATH = "content"
-STATIC_PATHS = ["projets"]
+STATIC_PATHS = ["posts"]
 
 THEME = "themes/juliette"
 
@@ -15,7 +15,6 @@ DEFAULT_LANG = "fr"
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
-PAGE_LANG_URL = "{lang}/{slug}/"
 PAGE_LANG_SAVE_AS = "{lang}/{slug}/index.html"
 
 # Don"t generate useless pages on authors, categories, etc.
