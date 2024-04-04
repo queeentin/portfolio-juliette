@@ -12,13 +12,6 @@
 </head>
 
     <body>
-    <!-- <div id="menu" style="color: black;">
-        <p><a href="{{ page.url }}">{{ page.title }}</a></p>
-        <p id="contact"><a href="index.html" style="text-decoration: none; color:#7B1EFF">JULIETTE NIER</a> </p>
-		<p id="apropos"><a href="a-propos" style="text-decoration: none;">À PROPOS</a></p>
-		<p id="identity"> <a href="projets" style="text-decoration: none; ">PROJETS </a> </p>
-		<p id="ateliers"> <a href="en" style="text-decoration: none;">PORTFOLIO [EN]</a> </p>
-    </div> -->
 
     {% set english_pages = [] %}
     {% set french_pages = [] %}
@@ -35,12 +28,10 @@
         {% if page.lang == "en" %}
             <ul>
                 {% for page in english_pages %}
-                    {% if page.slug == actual_slug %}
-                        <li class="active"><a href="{{ page.slug }}">{{ page.title }}</a></li>
-                    {% elif page.slug == "home" %}
-                        <li><a href="index.html">Juliette Nier</a></li>
+                    {% if page.slug == "home" %}
+                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="index.html">Juliette Nier</a></li>
                     {% else %}
-                        <li><a href="{{ page.slug }}">{{ page.title }}</a></li>
+                        <li  {% if page.slug == actual_slug %} class="active" {% endif %}><a href="{{ page.slug }}">{{ page.title }}</a></li>
                     {% endif %}
                 {% endfor %}
                 <li><a href="../{{ page.translation }}">FR</a></li>
@@ -48,12 +39,10 @@
         {% else %}
             <ul>
                 {% for page in french_pages %}
-                    {% if page.slug == actual_slug %}
-                        <li class="active"><a href="{{ page.slug }}">{{ page.title }}</a></li>
-                    {% elif page.slug == "accueil" %}
-                        <li><a href="index.html">Juliette Nier</a></li>
+                    {% if page.slug == "accueil" %}
+                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="../index.html">Juliette Nier</a></li>
                     {% else %}
-                        <li><a href="{{ page.slug }}">{{ page.title }}</a></li>
+                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="../{{ page.slug }}">{{ page.title }}</a></li>
                     {% endif %}
                 {% endfor %}
                 <li><a href="../en/{{ page.translation }}">EN</a></li>
@@ -61,7 +50,7 @@
         {% endif %}
     </div>
 
-{% block content %}{% endblock %}
+    {% block content %}{% endblock %}
 
-</body>
+    </body>
 </html>

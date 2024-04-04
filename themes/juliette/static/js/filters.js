@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    $("#filtres button").click(function(){
-        $("#filtres button").removeClass("active");
+    $("#filters button").click(function(){
+        $("#filters button").removeClass("active");
         $(this).addClass("active");
         const value = $(this).text();
-        $(".contenu").each(function(){
+        $(".block").each(function(){
             if (value === "TOUT" || $(this).attr("data-tag") === value) {
                 $(this).fadeIn();
             } else {

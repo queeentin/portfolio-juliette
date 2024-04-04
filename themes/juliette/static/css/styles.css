@@ -1,15 +1,15 @@
-@charset "UTF-8";
-
 /* CSS Document */
-/* reset */
-@font-face {
-  font-family: 'apercumedium';
+
+/* font-face */
+
+@font-face{
+  font-family: "Apercumedium";
   src: url('fonts/Brut_Grotesque_WEB-Light.woff');
   font-weight: 500;
   font-style: normal;
 }
 
-
+/* Reset */
 
 html,
 body,
@@ -89,7 +89,7 @@ summary,
 time,
 mark,
 audio,
-video {
+video{
   margin: 0;
   padding: 0;
   border: 0;
@@ -102,23 +102,34 @@ video {
   list-style-type: none;
 }
 
-body {
+/* Generals */
+
+body{
   background-color: #D0D0D0;
   color: black;
-  font-family: 'apercumedium';
-  letter-spacing: 0px;
+  font-family: "Apercumedium";
 }
 
-a {
+a{
   color: inherit;
   text-decoration: underline;
 }
 
-a:hover {
+a:hover{
   color: #8B35FF;
 }
 
-#menu {
+.container{
+  width: 100%;
+  left: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Menu */
+
+#menu{
   width: 100%;
   position: sticky;
   z-index: 10;
@@ -142,129 +153,98 @@ a:hover {
   color: #7B1EFF;
 }
 
-sup {
+/* Blocks and underblocks */
+
+.block{
+  padding: 1.25em;
+}
+
+.block h1{
+  font-size: 1.8em;
+}
+
+.block h2{
+  font-size: 1.8em;
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+}
+
+.block h3{
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+}
+
+.block ul{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.images{
+  column-count: 3;
+  column-gap: 8px;
+  margin-bottom: 1em;
+}
+
+.images figure{
+  break-inside: avoid;
+}
+
+figure img{
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+figure figcaption{
+  font-size: 0.9em;
+}
+
+/* About */
+
+#intro p{
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+#intro ul{
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+#cv{
+  column-count: 3;
+  column-gap: 8px;
+}
+
+#cv h4{
+  border-bottom: 1px solid black;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+}
+
+#cv ul{
+  font-size: 1em;
+}
+
+#cv section{
+  break-inside: avoid;
+}
+
+sup{
   font-size: 0.7em;
 }
 
-/*TEST*/
-.container {
-  overflow: hidden;
-}
+/* Projects */
 
-button {
-  border: none;
-  cursor: pointer;
-}
-
-button.active{
-  background-color: #CDF0FF;
-}
-
-.red {
-  background-color: red;
-}
-
-.categorie2 {
-  background-color: white;
-  border-radius: 12px;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  margin-left: 0.2em;
-  text-align: left;
-
-}
-
-.titre:after {
-
-  content: "";
-  display: block;
-  border-bottom: 1px solid;
-  border-bottom-color: inherit;
-  margin-top: 5px;
-  margin-bottom: 22px;
-
-}
-
-h1 {
+#projects h1{
   font-size: 1.5em;
   text-transform: uppercase;
   border-bottom: 1px solid black;
-  padding-bottom: .2em;
-  margin-top: 1em;
 }
 
-
-
-/*Grille*/
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 8px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  border-radius: 4px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-.cv-categories {
-  float: left;
-  display: inline-block;
-  text-align: left;
-  margin-top: 2em;
-  line-height: 1.5em;
-  font-size: 0.8em;
-  width: 300px;
-  margin-right: 2em;
-
-}
-
-.cv {
-  width: 100%;
-  position: absolute;
-}
-
-#identity,
-#editions,
-#contact,
-#apropos,
-#expo,
-#ecran,
-#ateliers,
-#videos {
-  float: left;
-  text-align: center;
-  margin: 5px;
-  font-family: 'apercumedium';
-
-  text-decoration: none;
-  padding: 5px;
-}
-
-
-
-.texte {
+.texte{
   padding-top: 1.5em;
 }
 
@@ -279,9 +259,9 @@ h1 {
   text-align: center;
 }
 
-.details {
+.details{
   display: flex;
-  font-family: 'apercumedium';
+  font-family: "Apercumedium";
   position: relative;
   font-size: 0.9em;
   line-height: 1.1em;
@@ -294,171 +274,72 @@ h1 {
   text-align: center;
 }
 
-#container {
-  width: 100%;
-  left: 0%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-#identite:hover {
-  background-color: #00521F;
-  color: white;
-}
-
-#identite:active {
-  background-color: #00521F;
-  color: white;
-}
-
-.background {
-  background-color: aqua;
-}
-
-#prospective {
-  background: rgb(168, 255, 207);
-  background: linear-gradient(180deg, rgba(230, 30, 224, 1), rgba(168, 255, 207, 1) 99%);
-}
-
 /*Caroussel*/
 
-.right {
+.right{
   margin-left: 50%;
   cursor: -webkit-image-set(url("../img/arrow-right.png") 1x,
       url("../img/arrow-right.png") 2x), pointer;
 }
 
-.left {
+.left{
   margin-left: 0%;
   cursor: -webkit-image-set(url("../img/arrow-left.png") 1x,
       url("../img/arrow-left.png") 2x), pointer;
 }
 
-/*Curseur*/
-
-.cursor {
+.cursor{
   position: absolute;
   width: 50%;
   height: 100%;
   z-index: 100;
 }
 
-/*Style des images*/
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 8px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 33%;
-  max-width: 33%;
-  padding: 120 12px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-
-.btn {
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 5px;
-  background-color: #F1FF80;
-  font-size: 1.2em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: auto;
-  text-align: center;
-  border-radius: 20px;
-  float: left;
-  font-variant-caps: all-petite-caps;
-}
-
-
-
-.caroussel {
+.caroussel{
   position: relative;
   width: 100%;
-  /* height:600px; */
   object-fit: cover;
 }
 
-.caroussel ul li img {
-  width: 100%;
-}
-
-.caroussel ul li {
+.caroussel ul li{
   display: none;
 }
 
-.caroussel ul li.active {
+.caroussel ul li.active{
   display: block;
 }
 
-
-
-
-
-
-
-
-.contenu {
-  position: relative;
+.caroussel ul li img{
   width: 100%;
-  padding: 20px;
-  height: 100%;
-
 }
 
-.image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0;
-  z-index: 1;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+/* Filters */
+
+button{
+  background-color: #F1FF80;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.25em;
 }
 
-.showing {
-  opacity: 1;
-  z-index: 2;
-  -webkit-transition: opacity 0s;
-  transition: opacity 0s;
+button.active{
+  background-color: rgb(205, 240, 255);
 }
 
-@media screen and (max-width: 780px)and (orientation:portrait) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+/* Responsive */
 
-  /* .caroussel {
-    height: 300px;
-  } */
+@media screen and (max-width: 780px)and (orientation:portrait){
 
-  .texte {
+  .texte{
     width: 100%;
     font-size: 1em;
   }
 
-  #filtres {
+  #filters{
     position: relative;
     z-index: 10000;
     top: 40px;
@@ -469,44 +350,20 @@ h1 {
     padding-bottom: 80px;
   }
 
-  #filtres2 {
-    visibility: visible;
-  }
-
-  .btn {
-    float: none;
-    width: 90%;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    background-color: #F1FF80;
-    font-size: 1.1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-align: center;
-    color: black;
-    border-radius: 20px;
-    font-variant-caps: all-petite-caps;
-  }
-
 }
 
+@media screen and (min-width: 1200px){
 
-@media screen and (min-width: 1200px) {
-
-  /* .caroussel {height: 600px;} */
-  .texte {
+  .texte{
     width: 100%;
   }
 
-  #projets {
+  .container{
     width: 70%;
     margin-left: 15%;
   }
 
-  #filtres {
+  #filters{
     position: fixed;
     z-index: 100000;
     margin-top: 1em;
@@ -514,70 +371,21 @@ h1 {
     transform: translateX(-50%);
   }
 
-  #filtres2 {
-    visibility: hidden;
-  }
-
-  .btn {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    background-color: #F1FF80;
-    font-size: 1.2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: auto;
-    text-align: center;
-    border-radius: 20px;
-    float: left;
-    font-variant-caps: all-petite-caps;
-  }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1200px){
 
-
-
-
-@media screen and (min-width: 600px) and (max-width: 1200px) {
-  /* .caroussel {
-    height: 600px;
-  } */
-
-  .texte {
+  .texte{
     width: 100%;
   }
 
-  #filtres {
+  #filters{
     position: fixed;
     z-index: 100000;
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
-
-  #filtres2 {
-    visibility: hidden;
-  }
-
-  .btn {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    background-color: #F1FF80;
-    font-size: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: auto;
-    text-align: center;
-    border-radius: 20px;
-    float: left;
-    font-variant-caps: all-petite-caps;
-    font-family: 'apercumedium';
   }
 
 }

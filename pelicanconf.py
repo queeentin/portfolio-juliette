@@ -3,13 +3,17 @@ SITENAME = "Juliette Nier"
 SITEURL = ""
 
 PATH = "content"
-STATIC_PATHS = ["posts"]
+# STATIC_PATHS = ["posts"]
 
 THEME = "themes/juliette"
 
 TIMEZONE = "UTC"
 
 DEFAULT_LANG = "fr"
+
+# Gallery plugin
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["gallery"]
 
 # Put pages at the root of the website
 PAGE_URL = "{slug}/"
