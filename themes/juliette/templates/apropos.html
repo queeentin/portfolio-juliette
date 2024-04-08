@@ -2,10 +2,17 @@
 
 {% block content %}
 
-<div id="about" class="container">
+{% if page.lang == "fr" %}
+    {% set language = "francais"%}
+{% else %}
+    {% set language = "english"%}
+{% endif %}
+
+<div id="about" class="container {{ language }}">
 
     <div id="intro" class="block" style="background-color: #F1FF80;">
-        <p>Graphiste indépendante depuis 2018, je réalise des projets de commandes dans des domaines variés allant de l’identité visuelle à la signalétique d’exposition, en passant par l’édition voire les objets en trois dimensions. Avec un goût prononcé pour le jeu, et la transmission, je poursuis parallèlement, un projet de recherche, à cheval entre la didactique visuelle et le théâtre d’objets. Développés lors de résidences, d’ateliers et d’expositions, ces récits de vulgarisations débordent sur l’écriture, la vidéo et la scénographie.</p>
+        <p class="fr">Graphiste indépendante depuis 2018, je réalise des projets de commandes dans des domaines variés allant de l’identité visuelle à la signalétique d’exposition, en passant par l’édition voire les objets en trois dimensions. Avec un goût prononcé pour le jeu, et la transmission, je poursuis parallèlement, un projet de recherche, à cheval entre la didactique visuelle et le théâtre d’objets. Développés lors de résidences, d’ateliers et d’expositions, ces récits de vulgarisations débordent sur l’écriture, la vidéo et la scénographie.</p>
+		<p class="en">As a freelance graphic designer since 2018, I carry out commissioned projects in various fields ranging from visual identity to exhibition signage, including publishing and even three-dimensional objects. With a pronounced taste for play and transmission, I am pursuing a parallel research project, straddling visual didactics and object theatre. Developed during residencies, workshops and exhibitions, these popular narratives spill over into writing, video and scenography.</p>
 		<ul>
             <li><a href="mailto:juliette.nier@gmail.com" style="text-decoration: none">→ juliette.nier@gmail.com</a></li>
             <li><a href="https://www.instagram.com/juliette_nier/?hl=fr" style="text-decoration: none">→ Instagram</a></li>
@@ -15,95 +22,154 @@
 
     <div id="cv" class="block" style="background-color: #BDD5D8;">
 		<section>
-			<h4>TRAVAUX DE COMMANDES</h4>
+			<h2 class="fr">Travaux de commande</h2>
+			<h2 class="en">Order projects</h2>
 			<ul>
-				<li>Société des Amis de la BnF Cité du design / ESADSE - Le Cydre - Revue Azimuts</li>
-				<li>École des Arts Décoratifs</li>
-				<li>Brasserie de La Vanne</li>
-				<li>Site Saint-Sauveur – Centre d’art, Rocheservière</li>
-				<li>Mission Société Numérique – Ministère de l’Économie et des Finances</li>
-				<li>Amurabi – Legaldesign</li>
-				<li>Agence C-album</li>
-				<li>Mission Développement Durable – Ministère de la Culture </li>
-				<li>Tulipes & Cie – Maison de production</li>
-				<li>Les éditions extensibles</li>
-				<li>Honoré Visconti – Label de productions artistiques</li>
-				<li>Projet Lutétium – chaîne vidéos de vulgarisation scientifique</li>
-				<li>Versus Art – revue d’art</li>
-				<li>(…)</li>     
+				<li class="fr">Société des Amis de la BnF Cité du design / ESADSE - Le Cydre - Revue Azimuts</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">École des Arts Décoratifs</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Brasserie de La Vanne</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Site Saint-Sauveur – Centre d’art, Rocheservière</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Mission Société Numérique – Ministère de l’Économie et des Finances</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Amurabi – Legaldesign</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Agence C-album</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Mission Développement Durable – Ministère de la Culture </li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Tulipes & Cie – Maison de production</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Les éditions extensibles</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Honoré Visconti – Label de productions artistiques</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Projet Lutétium – chaîne vidéos de vulgarisation scientifique</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">Versus Art – revue d’art</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr">(…)</li>
+				<li class="en">Lorem ispum</li>     
 			</ul>
 		</section>
 		<section>
-			<h4>RÉSIDENCES, PRIX, EXPOSITIONS</h4>
+			<h2 class="fr">Résidences, prix, expositions</h2>
+			<h2 class="en">Residencies, awards, exhibitions</h2>
 			<ul>
-				<li><sup>2023</sup> Résidence de 9 mois avec La Physique Autrement</li>
-				<li><sup>2022</sup> Exposition Muséosciences - Musée de Picardie, Amiens</li>
-				<li><sup>2022</sup> Résidence Prospective graphiques , Le Signe, Centre national du Graphisme </li>
-				<li><sup>2021</sup> Participation à l’exposition 100% Sorties d’écoles à La Grande Halle de La Villette</li>
-				<li><sup>2021</sup> Résidence avec le centre socio-culturel de Falaise (14) dans le cadre du Festival Transat des Ateliers Médicis</li>
-				<li><sup>2020</sup> Résidence à La Générale Nord-Est, Paris 14e</li>
-				<li><sup>2019</sup>Résidence « Ficha Éditions » Parcours artistique à St-Geniez-d’Olt (Aveyron)</li>
-				<li><sup>2019</sup> Résidence & exposition « Pleins les mirettes » chez Bellevue, artist runspace – Douarnenez</li>
-				<li><sup>2019</sup> Résidence Création en Cours – 3eme édition Avec la classe de CM1/CM2 de l’école de Rachecourt (52)</li>
-				<li><sup>2018</sup> Prix Bettencourt-Schueller/Ensad : Séries de litographies co-réalisées avec l’Atelier à Fleur de Pierre</li>
+				<li class="fr"><sup>2023</sup> Résidence de 9 mois avec La Physique Autrement</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2022</sup> Exposition Muséosciences - Musée de Picardie, Amiens</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2022</sup> Résidence Prospective graphiques , Le Signe, Centre national du Graphisme </li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2021</sup> Participation à l’exposition 100% Sorties d’écoles à La Grande Halle de La Villette</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2021</sup> Résidence avec le centre socio-culturel de Falaise (14) dans le cadre du Festival Transat des Ateliers Médicis</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2020</sup> Résidence à La Générale Nord-Est, Paris 14e</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2019</sup>Résidence « Ficha Éditions » Parcours artistique à St-Geniez-d’Olt (Aveyron)</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2019</sup> Résidence & exposition « Pleins les mirettes » chez Bellevue, artist runspace – Douarnenez</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2019</sup> Résidence Création en Cours – 3eme édition Avec la classe de CM1/CM2 de l’école de Rachecourt (52)</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2018</sup> Prix Bettencourt-Schueller/Ensad : Séries de litographies co-réalisées avec l’Atelier à Fleur de Pierre</li>
+				<li class="en">Lorem ispum</li>
 			</ul>
 		</ul>
 		</section>
 		<section>
-			<h4>PUBLICATIONS & CONFÉRENCES</h4>
+			<h2 class="fr">Publications & conférences</h2>
+			<h2 class="en">Publications & lectures</h2>
 			<ul>
-				<li><sup>2022</sup> Conférence aux Rencontres de Lure </li>
-				<li><sup>2021</sup> Catalogue 100% Sorties d’écoles, La Villette</li>
-				<li><sup>2021</sup> INHA, Journée d’études - Intervention performée Globalisation, art et prospective – Atelier 6 : Cent/Mille ans : généalogies et perspectives du musée national de Damas </li>
-				<li><sup>2020</sup> À propos de ce qui se passe : épisode 2 publié dans Préfaces à un livre pour un musée Syrien, Mathilde Ayoub – Zamân books, 2020</li>
-				<li><sup>2019</sup> À propos de ce qui se passe – Conférence manipulée lors du cycle « La geste technique » – Vieille Charité – EHESS/MUCEM – Marseille</li>
+				<li class="fr"><sup>2022</sup> Conférence aux Rencontres de Lure </li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2021</sup> Catalogue 100% Sorties d’écoles, La Villette</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2021</sup> INHA, Journée d’études - Intervention performée Globalisation, art et prospective – Atelier 6 : Cent/Mille ans : généalogies et perspectives du musée national de Damas </li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2020</sup> À propos de ce qui se passe : épisode 2 publié dans Préfaces à un livre pour un musée Syrien, Mathilde Ayoub – Zamân books, 2020</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2019</sup> À propos de ce qui se passe – Conférence manipulée lors du cycle « La geste technique » – Vieille Charité – EHESS/MUCEM – Marseille</li>
+				<li class="en">Lorem ispum</li>
 			</ul>
 		</ul>
 		</section>
 		<section>    
-			<h4>WORKSHOPS & ATELIERS</h4>
+			<h2 class="fr">Workshops & ateliers</h2>
+			<h2 class="en">Workshops</h2>
 			<ul>
-				<li><sup>2023</sup> Workshop « Projections » - Ecole de design de Troyes</li>
-				<li><sup>2023</sup> Workshop « Time Capsule » - EnsAD – Avec Julienne Richard et Joséphine Ohl</li>
-				<li><sup>2022</sup> Workshop « Télé-travail » - Cité du design - Saint-Étienne</li>
-				<li><sup>2022</sup> Workshop « Manipuler le monde » – EnsAD</li>
-				<li><sup>2020</sup> Workshop « Banquet », avec les élèves de 1ere année – EnsAD</li>
-				<li><sup>2020</sup> « Chroniques d’un été » – Ateliers Médicis, Clichy-sous-bois</li>
-				<li><sup>2020</sup> Workshop «Azimuts #52» avec les étudiants-chercheurs du Cydre, ESADSE, Saint-Étienne</li>
+				<li class="fr"><sup>2023</sup> Workshop « Projections » - Ecole de design de Troyes</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2023</sup> Workshop « Time Capsule » - EnsAD – Avec Julienne Richard et Joséphine Ohl</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2022</sup> Workshop « Télé-travail » - Cité du design - Saint-Étienne</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2022</sup> Workshop « Manipuler le monde » – EnsAD</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2020</sup> Workshop « Banquet », avec les élèves de 1ere année – EnsAD</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2020</sup> « Chroniques d’un été » – Ateliers Médicis, Clichy-sous-bois</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2020</sup> Workshop «Azimuts #52» avec les étudiants-chercheurs du Cydre, ESADSE, Saint-Étienne</li>
+				<li class="en">Lorem ispum</li>
 			</ul>
 		</section>
 		<section>
-			<h4>COMMISSARIAT D’EXPOSITION</h4>
+			<h2 class="fr">Commissariat d'exposition</h2>
+			<h2 class="en">Exhibition curation</h2>
 			<ul>
-				<li><sup>2021</sup> Bouphonie, en 3 actes + 1 au 6b, à Saint-Denis</li>
-				<li><sup>2018</sup> Loi Carrez, une exposition d’appartement </li>
-				<li><sup>2017</sup> Zum, Zoom, Zoum – Galerie GapGap à Leipzig</li>
-				<li><sup>2015</sup> Résistance – La Générale, Paris XI</li>
+				<li class="fr"><sup>2021</sup> Bouphonie, en 3 actes + 1 au 6b, à Saint-Denis</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2018</sup> Loi Carrez, une exposition d’appartement </li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2017</sup> Zum, Zoom, Zoum – Galerie GapGap à Leipzig</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2015</sup> Résistance – La Générale, Paris XI</li>
+				<li class="en">Lorem ispum</li>
 			</ul>
 		</section>
 		<section>
-			<h4>PRESSE</h4>
+			<h2 class="fr">Presse</h2>
+			<h2 class="en">Press</h2>
 			<ul>
-				<li><sup>Avril 2021</sup> Interview, DUU* RADIO <br></li>
-				<li><sup>Mars 2021</sup> « On ne badine pas avec l’ENSAD », Étapes nº260</li>
-				<li><sup>Février 2021</sup> « Diplômés, et après ? », Beaux-Arts Magazine </li>
-				<li><sup>Janvier 2021</sup> « C’est vendredi, c’est bouphonie », Revue Décor</li>
-				<li><sup>Janvier 2021</sup> « Au 6b, Bouphonie célèbre nos superstitions comiques »</li>
-				<li><sup>Avril 2019</sup> « Foisonnement de savoir-faire », Journal ZIbeline </li>
+				<li class="fr"><sup>Avril 2021</sup> Interview, DUU* RADIO <br></li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>Mars 2021</sup> « On ne badine pas avec l’ENSAD », Étapes nº260</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>Février 2021</sup> « Diplômés, et après ? », Beaux-Arts Magazine </li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>Janvier 2021</sup> « C’est vendredi, c’est bouphonie », Revue Décor</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>Janvier 2021</sup> « Au 6b, Bouphonie célèbre nos superstitions comiques »</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>Avril 2019</sup> « Foisonnement de savoir-faire », Journal ZIbeline </li>
+				<li class="en">Lorem ispum</li>
 			</ul>
 		</section>
 		<section>
-			<h4>FORMATION</h4>
+			<h2 class="fr">Formation</h2>
+			<h2 class="en">Education</h2>
 			<ul>
-				<li><sup>2013-2018</sup> École des Arts Décoratifs, Paris – Section Design graphique et multimédia <br></li>
-				<li><sup>2018</sup> Diplôme " À propos de ce qui se passe - épisode 1 "</li>
-				<li><sup>2017</sup> Mémoire " Mode d'emplois : Languages de signes, Dialogues de sourds " </li>
-				<li><sup>2016-2017</sup> Échange à la Hochschule Fuer Grafik und Buchkunst, Leipzig</li>
-				<li><sup>STAGES</sup> C-Album, Honoré Visconti, Yes We Camp</li>
+				<li class="fr"><sup>2013-2018</sup> École des Arts Décoratifs, Paris – Section Design graphique et multimédia <br></li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2018</sup> Diplôme " À propos de ce qui se passe - épisode 1 "</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2017</sup> Mémoire " Mode d'emplois : Languages de signes, Dialogues de sourds " </li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>2016-2017</sup> Échange à la Hochschule Fuer Grafik und Buchkunst, Leipzig</li>
+				<li class="en">Lorem ispum</li>
+				<li class="fr"><sup>STAGES</sup> C-Album, Honoré Visconti, Yes We Camp</li>
+				<li class="en">Lorem ispum</li>
 			</ul>
 		</section>
-		<p>Octobre 2022 - Développé par Juliette Nier - Merci à Lucas Lebihan et Marie-Julie Tang Tardieux - Fonts : Brut Grotesque</p>
-    </div>
+		<p class="fr">Octobre 2022 - Développé par Juliette Nier - Merci à Lucas Lebihan et Marie-Julie Tang Tardieux - Fonts : Brut Grotesque</p>
+		<p class="en">2022 October - Developped by Juliette Nier - Thanks to Lucas Lebihan and Marie-Julie Tang Tardieux - Fonts : Brut Grotesque</p>
+	</div>
 
 </div>
 

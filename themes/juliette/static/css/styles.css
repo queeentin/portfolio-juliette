@@ -132,7 +132,7 @@ a:hover{
 #menu{
   width: 100%;
   position: sticky;
-  z-index: 10;
+  z-index: 2;
   background-color: #FFFFFF;
   padding: 1.2em;
   font-size: 1em;
@@ -160,19 +160,22 @@ a:hover{
 }
 
 .block h1{
-  font-size: 1.8em;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 .block h2{
-  font-size: 1.8em;
+  font-size: 2em;
   border-bottom: 1px solid black;
   margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 .block h3{
   font-size: 1.5em;
   border-bottom: 1px solid black;
   margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 .block ul{
@@ -198,10 +201,17 @@ figure img{
 }
 
 figure figcaption{
-  font-size: 0.9em;
+  font-size: 1em;
+  margin-bottom: 1em;
 }
 
-/* About */
+/* Contact */
+
+#contact ul{
+  margin-bottom: 0;
+}
+
+/* À propos */
 
 #intro p{
   font-size: 2em;
@@ -218,10 +228,12 @@ figure figcaption{
   column-gap: 8px;
 }
 
-#cv h4{
+#cv h2{
+  font-size: 1em;
   border-bottom: 1px solid black;
   padding-bottom: 0.2em;
   margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 #cv ul{
@@ -232,11 +244,15 @@ figure figcaption{
   break-inside: avoid;
 }
 
-sup{
-  font-size: 0.7em;
+#cv section:nth-of-type(4){
+  break-after: always;
 }
 
-/* Projects */
+sup{
+  font-size: 0.75em;
+}
+
+/* Projets */
 
 #projects h1{
   font-size: 1.5em;
@@ -254,7 +270,7 @@ sup{
 }
 
 .texte p:nth-child(2){
-  font-size: 0.9em;
+  font-size: 1em;
   margin-top: 1em;
   text-align: center;
 }
@@ -263,7 +279,7 @@ sup{
   display: flex;
   font-family: "Apercumedium";
   position: relative;
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1.1em;
   padding-top: 1em;
   left: 0%;
@@ -292,7 +308,7 @@ sup{
   position: absolute;
   width: 50%;
   height: 100%;
-  z-index: 100;
+  z-index: 1;
 }
 
 .caroussel{
@@ -313,79 +329,81 @@ sup{
   width: 100%;
 }
 
-/* Filters */
+/* Filtres */
+
+#filters{
+  position: fixed;
+  z-index: 3;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
 
 button{
   background-color: #F1FF80;
-  font-size: 1.2em;
   padding: 0.5em 1em;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 button.active{
   background-color: rgb(205, 240, 255);
 }
 
-/* Responsive */
+/* Langue */
 
-@media screen and (max-width: 780px)and (orientation:portrait){
-
-  .texte{
-    width: 100%;
-    font-size: 1em;
-  }
-
-  #filters{
-    position: relative;
-    z-index: 10000;
-    top: 40px;
-    margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-bottom: 80px;
-  }
-
+.francais .en{
+  display: none;
 }
 
-@media screen and (min-width: 1200px){
+.english .fr{
+  display: none;
+}
 
-  .texte{
-    width: 100%;
-  }
+/* Responsive */
+
+/* Large screens */
+
+@media screen and (min-width: 1200px){
 
   .container{
     width: 70%;
     margin-left: 15%;
   }
 
-  #filters{
-    position: fixed;
-    z-index: 100000;
-    margin-top: 1em;
-    left: 50%;
-    transform: translateX(-50%);
+  body{
+    font-size: 16px;
   }
 
 }
 
+/* Medium screens */
+
 @media screen and (min-width: 600px) and (max-width: 1200px){
 
-  .texte{
-    width: 100%;
+  body{
+    font-size: 15px;
   }
 
-  #filters{
-    position: fixed;
-    z-index: 100000;
-    margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+}
+
+/* Small screens */
+
+@media screen and (max-width: 780px) and (orientation:portrait){
+
+  body{
+    font-size: 14px;
+  }
+
+  #index .images{
+    column-count: 1;
   }
 
 }

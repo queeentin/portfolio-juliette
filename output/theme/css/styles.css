@@ -1,0 +1,409 @@
+/* CSS Document */
+
+/* font-face */
+
+@font-face{
+  font-family: "Apercumedium";
+  src: url('fonts/Brut_Grotesque_WEB-Light.woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+section,
+summary,
+time,
+mark,
+audio,
+video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Generals */
+
+body{
+  background-color: #D0D0D0;
+  color: black;
+  font-family: "Apercumedium";
+}
+
+a{
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #8B35FF;
+}
+
+.container{
+  width: 100%;
+  left: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Menu */
+
+#menu{
+  width: 100%;
+  position: sticky;
+  z-index: 2;
+  background-color: #FFFFFF;
+  padding: 1.2em;
+  font-size: 1em;
+  top: 0;
+}
+
+#menu ul{
+  display: flex;
+  gap: 1em;
+}
+
+#menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#menu .active{
+  color: #7B1EFF;
+}
+
+/* Blocks and underblocks */
+
+.block{
+  padding: 1.25em;
+}
+
+.block h1{
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.block h2{
+  font-size: 2em;
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.block h3{
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.block ul{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.images{
+  column-count: 3;
+  column-gap: 8px;
+  margin-bottom: 1em;
+}
+
+.images figure{
+  break-inside: avoid;
+}
+
+figure img{
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+figure figcaption{
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+/* Contact */
+
+#contact ul{
+  margin-bottom: 0;
+}
+
+/* À propos */
+
+#intro p{
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+#intro ul{
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+#cv{
+  column-count: 3;
+  column-gap: 8px;
+}
+
+#cv h2{
+  font-size: 1em;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+#cv ul{
+  font-size: 1em;
+}
+
+#cv section{
+  break-inside: avoid;
+}
+
+#cv section:nth-of-type(4){
+  break-after: always;
+}
+
+sup{
+  font-size: 0.75em;
+}
+
+/* Projets */
+
+#projects h1{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+.texte{
+  padding-top: 1.5em;
+}
+
+.texte p:first-child{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.texte p:nth-child(2){
+  font-size: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.details{
+  display: flex;
+  font-family: "Apercumedium";
+  position: relative;
+  font-size: 1em;
+  line-height: 1.1em;
+  padding-top: 1em;
+  left: 0%;
+}
+
+.details span{
+  flex: 1 0 0;
+  text-align: center;
+}
+
+/*Caroussel*/
+
+.right{
+  margin-left: 50%;
+  cursor: -webkit-image-set(url("../img/arrow-right.png") 1x,
+      url("../img/arrow-right.png") 2x), pointer;
+}
+
+.left{
+  margin-left: 0%;
+  cursor: -webkit-image-set(url("../img/arrow-left.png") 1x,
+      url("../img/arrow-left.png") 2x), pointer;
+}
+
+.cursor{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+}
+
+.caroussel{
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+.caroussel ul li{
+  display: none;
+}
+
+.caroussel ul li.active{
+  display: block;
+}
+
+.caroussel ul li img{
+  width: 100%;
+}
+
+/* Filtres */
+
+#filters{
+  position: fixed;
+  z-index: 3;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+button{
+  background-color: #F1FF80;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+button.active{
+  background-color: rgb(205, 240, 255);
+}
+
+/* Langue */
+
+.francais .en{
+  display: none;
+}
+
+.english .fr{
+  display: none;
+}
+
+/* Responsive */
+
+/* Large screens */
+
+@media screen and (min-width: 1200px){
+
+  .container{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  body{
+    font-size: 16px;
+  }
+
+}
+
+/* Medium screens */
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+
+  body{
+    font-size: 15px;
+  }
+
+}
+
+/* Small screens */
+
+@media screen and (max-width: 780px) and (orientation:portrait){
+
+  body{
+    font-size: 14px;
+  }
+
+  #index .images{
+    column-count: 1;
+  }
+
+}
