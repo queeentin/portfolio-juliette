@@ -1,7 +1,7 @@
 Title: Toktoks
 Date: 2023-12-01 00:00
 Lang: fr
-Place: Orsay
+Place: Chelles
 Partners: Avec La Physique Autrement
 Category: récits & vulgarisation
 Background: background-color: white;
