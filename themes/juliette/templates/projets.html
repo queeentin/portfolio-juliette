@@ -43,6 +43,9 @@
                         <span>{{ article.partners }}</span>
                         <span>{{ article.category }}</span>
                     </div>
+                    {% if article.video is defined %}
+                        <iframe src="{{ article.video }}" frameborder="0" allowfullscreen=""></iframe>
+                    {% endif %}
                 </div>
         {% endfor %}
 
