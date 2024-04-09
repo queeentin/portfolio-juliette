@@ -29,23 +29,23 @@
             <ul>
                 {% for page in english_pages %}
                     {% if page.slug == "home" %}
-                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="index.html">Juliette Nier</a></li>
+                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="{{ SITEURL }}/en">Juliette Nier</a></li>
                     {% else %}
-                        <li  {% if page.slug == actual_slug %} class="active" {% endif %}><a href="{{ page.slug }}">{{ page.title }}</a></li>
+                        <li  {% if page.slug == actual_slug %} class="active" {% endif %}><a href="{{ SITEURL }}/en/{{ page.slug }}">{{ page.title }}</a></li>
                     {% endif %}
                 {% endfor %}
-                <li><a href="../{{ page.translation }}">FR</a></li>
+                <li><a href="{{ SITEURL }}/{{ page.translation }}">FR</a></li>
             </ul>
         {% else %}
             <ul>
                 {% for page in french_pages %}
                     {% if page.slug == "accueil" %}
-                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="../index.html">Juliette Nier</a></li>
+                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="{{ SITEURL }}/">Juliette Nier</a></li>
                     {% else %}
-                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="../{{ page.slug }}">{{ page.title }}</a></li>
+                        <li {% if page.slug == actual_slug %} class="active" {% endif %}><a href="{{ SITEURL }}/{{ page.slug }}">{{ page.title }}</a></li>
                     {% endif %}
                 {% endfor %}
-                <li><a href="../en/{{ page.translation }}">EN</a></li>
+                <li><a href="{{ SITEURL }}/en/{{ page.translation }}">EN</a></li>
             </ul>
         {% endif %}
     </div>
