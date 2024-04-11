@@ -16,6 +16,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Langue", name: "lang", widget: "select", options: ["fr", "en"] }
       - { label: "Place", name: "place", widget: "string" }

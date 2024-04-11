@@ -1,6 +1,6 @@
 ---
 title: Where do cheeses go when they travel?
-date: 2023-01-01 00:00
+date: 2023-01-01T00:00:00.000Z
 lang: en
 place: Paris
 category: editions
