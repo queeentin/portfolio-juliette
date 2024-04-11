@@ -1,7 +1,7 @@
 ---
 title: Toktoks
 slug: toktoks-en
-date: "07.2023"
+date: 2021-01-01T00:00:00.000Z
 lang: en
 place: Orsay
 partners: Avec La Physique Autrement
