@@ -16,13 +16,13 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Langue", name: "lang", widget: "select", options: ["fr", "en"] }
       - { label: "Place", name: "place", widget: "string" }
-      - { label: "Partenaire(s)", name: "partners", widget: "string" }
+      - { label: "Partenaire(s)", name: "partners", widget: "string", required: false }
       - { label: "Categorie", name: "category", widget: "string" }
-      - { label: "Fond", name: "background", widget: "string"}
-      - { label: "Gallerie", name: "gallery", widget: "string"}
-      - { label: "Lien vidéo", name: "video", widget: "string"}
+      - { label: "Fond", name: "background", widget: "string" }
+      - { label: "Gallerie", name: "gallery", widget: "string" }
+      - { label: "Lien vidéo", name: "video", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
