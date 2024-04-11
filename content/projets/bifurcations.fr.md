@@ -1,6 +1,6 @@
 ---
 title: Bifurcations quantiques
-date: "01.2023"
+date: 2023-01-01T00:00:00.000Z
 lang: fr
 place: Orsay
 partners: Avec La Physique Autrement
