@@ -1,6 +1,6 @@
 ---
 title: Toktoks
-date: 2023-07-01T00:00:00.000Z
+date: "07.2023"
 lang: fr
 place: Orsay
 partners: Avec La Physique Autrement
