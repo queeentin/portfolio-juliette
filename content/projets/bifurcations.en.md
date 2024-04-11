@@ -5,12 +5,7 @@ lang: en
 place: Orsay
 partners: La physique autrement
 category: stories & popularization
-<<<<<<< HEAD
 background: linear-gradient(90deg, rgba(255,189,239,1) 25%, rgba(180,238,255,1) 48%, rgba(229,230,229,1) 69%, rgba(34,122,75,1) 100%)
-=======
-background: linear-gradient(90deg, rgba(255,189,239,1) 25%, rgba(180,238,255,1)
-  48%, rgba(229,230,229,1) 69%, rgba(34,122,75,1) 100%);
->>>>>>> 0a15c20556e64f186e5b8c9f03e2a27145fde6b8
 gallery: bifurcations-quantiques
 video: https://www.youtube.com/embed/bs6sziiTKG4?si=GqPzK24GBk-1CdSr
 ---
