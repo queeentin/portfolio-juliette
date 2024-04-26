@@ -3,7 +3,7 @@ title: UNE TECHNOGONIE – ÉDITION
 date: 2022-01-01T00:00:00.000Z
 lang: fr
 place: Chaumont
-category: Éditions, 2022
+category: Éditions 
 background: rgb(220, 220, 220)
 gallery: 24_edition-technogonie
 ---

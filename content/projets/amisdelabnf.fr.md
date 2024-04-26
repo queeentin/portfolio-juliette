@@ -7,4 +7,4 @@ category: identité visuelle
 background: rgb(211, 157, 0)
 gallery: bnf
 ---
-Atelier ouvert à tous de composition d'images autour du travail, lors de l'exposition "À l'intérieur de la production" du Cycle de Recherche en Design lors de la biennale à la cité du Design.
+Brochure d'adhésion, cartes adhérents, newsletter pour la société des Amis de la BnF 
