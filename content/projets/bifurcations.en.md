@@ -1,6 +1,6 @@
 ---
 title: Quantum Bifurcations
-date: 2023-01-01T00:00:00.000Z
+date: 2023-05-01T00:00:00.000Z
 lang: en
 place: Orsay
 partners: La physique autrement
