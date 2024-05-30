@@ -1,7 +1,7 @@
 ---
 title:  LEGAL DESIGN AROUND THE WORLD
 date: 2021-12-01T00:00:00.000Z
-lang: EN
+lang: en
 place: Paris
 partners: with Amurabi, Legal Design Agency
 category: editions
