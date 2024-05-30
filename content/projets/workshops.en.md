@@ -1,7 +1,7 @@
 ---
-title: Workshops divers
+title: Workshops 
 date: 2020-09-01T00:00:00.000Z
-lang: fr
+lang: en
 place: divers
 category: workshops
 background: rgb(230, 232, 255)

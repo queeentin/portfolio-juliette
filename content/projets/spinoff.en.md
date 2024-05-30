@@ -1,7 +1,7 @@
 ---
 title:  About what's going on — spin OFF
 date: 2019-05-01T00:00:00.000Z
-lang: fr
+lang: en
 place: Rachecourt-sur-Marne (42)
 partners: Avec la classe de CM1/CM2 de l'école de Rachecourt
 category: workshops

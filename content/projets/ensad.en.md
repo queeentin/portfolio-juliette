@@ -4,7 +4,7 @@ date: 2021-01-01T00:00:00.000Z
 lang: en
 place: Paris
 partners: With Damien Bauza, Tommy Bougé, Pedro Cardoso and Paul Dagorne
-category: Visual identity
+category: visual identity
 background: rgb(255, 204, 239)
 gallery: identite arts decoratifs
 ---
