@@ -9,6 +9,7 @@ background: linear-gradient(90deg, rgba(255,189,239,1) 25%, rgba(180,238,255,1),
 gallery: bifurcations-quantiques
 ---
 A device imagined for a multiple-choice conference. A collection of cardboard and paper objects manipulated by a physics popularizer during
-a lecture in which the audience is invited to vote on which path to take. The idea was to tell different stories linked to the discovery of magnetism, but above all to illustrate how scientific discoveries are made: sometimes by taking side roads.[La Physique Autrement](https://hebergement.universite-paris-saclay.fr/supraconductivite/projet/toktoks/).
+a lecture in which the audience is invited to vote on which path to take. The idea was to tell different stories linked to the discovery of magnetism, but above all to illustrate how scientific discoveries are made: sometimes by taking side roads.
+A project developed during my residency at [La Physique Autrement](https://hebergement.universite-paris-saclay.fr/supraconductivite/projet/toktoks/).
 
 [see demo](https://youtu.be/uIqkitE1gqQ?feature=shared)
