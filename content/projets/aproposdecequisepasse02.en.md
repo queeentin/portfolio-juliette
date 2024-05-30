@@ -1,9 +1,9 @@
 ---
-title: About what's going on - Episod 2 - The museum of Damas
+title: About what's going on - Episode 2 - The museum of Damas
 date: 2021-01-01T00:00:00.000Z
 lang: en
 place: Paris
-category: stories & popularization
+category: Stories & popularization
 background: rgb(0, 77, 12)
 gallery: 16_a_propos_de_ce_qui_se_passe_ep2
 partner: With Bassem Salloum

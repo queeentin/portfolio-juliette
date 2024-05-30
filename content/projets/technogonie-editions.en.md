@@ -1,16 +1,12 @@
 ---
-title: A TECHNOGONY
+title: UNE TECHNOGONIE – ÉDITION
 date: 2022-01-01T00:00:00.000Z
 lang: en
 place: Chaumont
-category: Stories & popularization
-background: linear-gradient(180deg, rgba(168,255,207,1) 0%, rgba(208,208,208,1) 31%, rgba(204,213,208,1) 78%, rgba(230,30,224,1) 99%)
-gallery: prospectives graphiques
-video: https://youtu.be/bs6sziiTKG4 
+category: Editions
+background: rgb(220, 220, 220)
+gallery: 24_edition-technogonie
 ---
-A 6-month project residency about nuclear waste and how to communicate its existence to
-future generations. I produced a "Technogony" (techno- for technic, -gony for genesis), a short
-story about the origin of nuclear waste, which we staged in a shadow theater in collaboration
-with Elisabetta Spaggiari and Philippine Brenac. 
+A very small book, containing the text of a “technogony” annotated with historical and scientific elements that make up the research carried out during my “Prospectives graphiques” residency.
 
-With the support of Le Signe, Centre national du Graphisme, and ANDRA, the French national radioactive waste management agency
+In 2024, it was translated into English.
