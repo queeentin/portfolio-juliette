@@ -4,7 +4,7 @@ date: 2017-09-01T00:00:00.000Z
 lang: en
 place: Paris
 partners: A project by Laure Flammarion 
-category: Space/volume
+category: Space & objects
 background: rgb(230, 232, 255)
 gallery: 9_matin_midi_soir
 ---

@@ -3,7 +3,7 @@ title: Visual identity for the craft brewery "Brasserie de la Vanne" and its bee
 date: 2021-06-01T00:00:00.000Z
 lang: en
 place: Cachan
-category: identité visuelle
+category: Visual identity
 background: rgb(255, 100, 50)
 gallery: la_cachalote
 ---

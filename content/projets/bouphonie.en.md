@@ -4,7 +4,7 @@ date: 2021-01-01T00:00:00.000Z
 lang: en
 place: Saint-Denis
 partners: with Arslan Smirnov 
-category: Espace/volume
+category: Space & objects
 background: rgb(255, 66, 0)
 gallery: 5_bouphonie
 ---
