@@ -2,7 +2,7 @@
 title:  Site pour Alambic, compagnie de théâtre
 date: 2020-04-01T00:00:00.000Z
 lang: fr
-place: Douarnenez
+place: Paris
 partners: Développé par Pedro Cardoso
 category: éditions
 background: rgb(80, 170, 255)

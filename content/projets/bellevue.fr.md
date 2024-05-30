@@ -4,7 +4,7 @@ date: 2019-06-01T00:00:00.000Z
 lang: fr
 place: Douarnenez
 partners: Avec la précieuse collaboration de Thomas God, Guillaume Leclouërec et Boris Régnier 
-category: identité visuelle, espace/volume
+category: identité visuelle
 background: rgb(80, 170, 255)
 gallery: 6_bellevue
 ---

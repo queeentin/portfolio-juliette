@@ -1,7 +1,7 @@
 ---
-title: Identité visuelle pour la Brasserie de la Vanne et sa « Cachalote » 
+title: IDENTITÉ VISUELLE POUR LA BRASSERIE DE LA VANNE ET SA « CACHALOTE »
 date: 2021-06-01T00:00:00.000Z
-lang: fr
+lang: en
 place: Cachan
 category: identité visuelle
 background: rgb(255, 100, 50)
