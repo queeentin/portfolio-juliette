@@ -11,6 +11,5 @@ video: https://vimeo.com/425873218
 ---
 A performing story about the History of the national museum of Damascus and the French Mandate in Syria. Imagined with the journalist Bassem Salloum, this french-arabic video links together historical facts with geopolitical situations.
 
-
 [INTERVIEW](https://duuuradio.fr/archive/juliette-nier-a-propos-de-ce-qui-se-passe-le-musee-de-damas) - Interview on DUU*radio réalisée by Anna Priot
 [See the entire episode](https://www.youtube.com/embed/QRS8AO1MCBQ) 

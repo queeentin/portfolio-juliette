@@ -1,9 +1,9 @@
 ---
 title: Azimuts nº52 – Continu, Design research journal of the Cité du Design/ESADSE 
-lang: fr
+lang: en
 place: Cité du design/ESADSE, Saint-Étienne, juin 2021
 partners: Coordonné par Ernesto Oroza et Victoria Calligaro, avec l’équipe du Cydre en particulier:Merlin Andreae, Corentin Brûlé et Antoine Bouré.
-category: éditions
+category: editions
 background: rgb(73, 163, 255)
 gallery: azimuts_52
 ---
