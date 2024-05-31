@@ -1,5 +1,6 @@
 ---
-title:  MORNING, NOON AND EVENING
+title:  MATIN, MIDI ET SOIR
+slug: mms-en
 date: 2017-09-01T00:00:00.000Z
 lang: en
 place: Paris
