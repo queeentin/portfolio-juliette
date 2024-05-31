@@ -9,7 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="{{ SITEURL }}/theme/js/caroussel.js"></script>
     <script src="{{ SITEURL }}/theme/js/filters.js"></script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
     <body>
@@ -52,18 +51,6 @@
     </div>
 
     {% block content %}{% endblock %}
-
-    <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", (user) => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-      </script>
 
     </body>
 </html>

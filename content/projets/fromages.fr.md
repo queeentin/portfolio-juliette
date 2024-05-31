@@ -1,6 +1,6 @@
 ---
 title: Où vont les fromages lorsqu'ils partent en voyage ?
-date: 2022-01-01T00:00:00.000Z
+date: 2022-01-01
 lang: fr
 place: Paris
 category: éditions
