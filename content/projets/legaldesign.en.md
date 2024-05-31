@@ -1,5 +1,6 @@
 ---
 title:  LEGAL DESIGN AROUND THE WORLD
+slug: legaldesign-en
 date: 2021-12-01T00:00:00.000Z
 lang: en
 place: Paris
