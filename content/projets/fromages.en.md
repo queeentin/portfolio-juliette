@@ -7,4 +7,4 @@ category: editions
 background: rgb(210, 232, 255)
 gallery: fromages
 ---
-A book by Manu Gault for the editions [Caseus Island](https://editionscaseusisland.fr/), where poetry and cheese factories meet
+A book by Manu Gault for the editions [Caseus Island](https://editionscaseusisland.fr/), where poetry and cheese meet.

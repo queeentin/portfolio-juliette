@@ -7,4 +7,4 @@ category: visual identity
 background: rgb(255, 100, 50)
 gallery: la_cachalote
 ---
-The cachalote takes the shape of the hillside on which the Vanne brewery is perched. The “o” becomes an expandable window, revealing the Cachan aqueduct. A suburb parisian landscape that changes with the seasons, and the flavors of the drink. 
+The cachalote takes the shape of the hillside on which the Vanne brewery is perched. The “o” becomes an expandable window, revealing Cachan’s aqueduct. A parisian suburb landscape that changes with the seasons, and the flavors of the drink.

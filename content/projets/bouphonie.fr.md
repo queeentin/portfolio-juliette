@@ -9,5 +9,5 @@ background: rgb(255, 66, 0)
 gallery: 5_bouphonie
 ---
 Conception d’une exposition où l’on invite des artistes à cohabiter sur des « scènes »prédéfinies. Un collage en 3 dimensions. 
-[visiter le site de l'exposition](http://bouphonie.xyz/)
+[Visiter le site de l'exposition](http://bouphonie.xyz/)
 

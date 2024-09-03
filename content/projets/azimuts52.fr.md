@@ -8,5 +8,5 @@ category: éditions
 background: rgb(73, 163, 255)
 gallery: azimuts_52
 ---
-Analyse des temps troubles de l’épidémie de covid, par le biais de la [factographie](https://www.radiofrance.fr/franceculture/podcasts/tire-ta-langue/les-factographies-captations-fragmentees-du-reel-6130671)
+Analyse des temps troubles de l’épidémie de covid, par le biais de la [factographie](https://www.radiofrance.fr/franceculture/podcasts/tire-ta-langue/les-factographies-captations-fragmentees-du-reel-6130671) – 
 Couverture CMJN, intérieur Noir et blanc, 160 pages.

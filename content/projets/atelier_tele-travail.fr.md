@@ -7,4 +7,4 @@ category: workshops
 background: rgb(0, 145, 75)
 gallery: 20_atelier_tele-travail
 ---
-Atelier ouvert à tous de composition d'images autour du travail, lors de l'exposition "À l'intérieur de la production" du Cycle de Recherche en Design lors de la biennale à la cité du Design.
+Atelier ouvert à tous de composition d'images autour du travail, lors de l'exposition « À l'intérieur de la production » du Cycle de Recherche en Design lors de la biennale à la cité du Design.

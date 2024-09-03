@@ -8,4 +8,4 @@ category: editions
 background: rgb(150, 210, 180)
 gallery: 7_alambic
 ---
-A site built like a sliding puzzle, randomly displaying stills, or details of the epinal image of the “L'alambic miraculeux".
+A website built like a sliding puzzle, randomly displaying details of the epinal image of “L'alambic miraculeux".
