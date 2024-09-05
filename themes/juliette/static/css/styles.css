@@ -289,7 +289,8 @@ sup{
   flex: 1 0 0;
   text-align: center;
 }
-
+.details span:nth-child(3)
+{text-transform: uppercase;}
 iframe{
   width: 100%;
   aspect-ratio: 16/9;
