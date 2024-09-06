@@ -15,7 +15,11 @@
 <div id="container">
 
     <div id="filters">
-        <button class="active">TOUT</button>
+        {% if page.lang == "fr"%}
+            <button class="active">TOUT</button>
+        {% else %}
+            <button class="active">ALL</button>
+        {% endif %}
         {% for el in rightCats | unique %}
             <button>{{ el }}</button>
         {% endfor %}
