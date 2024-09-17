@@ -7,7 +7,7 @@ category: Stories & popularization
 background: rgb(100, 196, 113)
 gallery: 16_a_propos_de_ce_qui_se_passe_ep2
 partner: With Bassem Salloum
-video: https://vimeo.com/425873218
+video: https://player.vimeo.com/video/425873218?
 ---
 A performance about the History of the national museum of Damascus and the French Mandate in Syria. Imagined with the journalist Bassem Salloum, this french-arabic video links together historical facts and geopolitical situations.
 
