@@ -7,7 +7,7 @@ category: récits & vulgarisation
 background: rgb(100, 196, 113)
 gallery: 16_a_propos_de_ce_qui_se_passe_ep2
 partner: Joué avec Bassem Salloum
-video: https://vimeo.com/425873218
+video: https://player.vimeo.com/video/425873218
 ---
 Second épisode du cycle de performance « à propos de ce qui se passe ». Il raconte en français et arabe l’histoire du Musée de Damas, croisé à des faits historiques, géopolitiques et mathématiques. Il s’agit d’un épisode de commande réalisé dans le cadre de CENT/MILLE ANS à l’initiative de Mathilde Ayoub, curatrice indépendante et chercheuse. 
 
