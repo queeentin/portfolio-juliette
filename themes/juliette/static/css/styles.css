@@ -291,6 +291,7 @@ sup{
 }
 .details span:nth-child(3)
 {text-transform: uppercase;}
+
 iframe{
   width: 100%;
   aspect-ratio: 16/9;

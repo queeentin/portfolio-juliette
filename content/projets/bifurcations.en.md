@@ -10,6 +10,6 @@ gallery: bifurcations-quantiques
 ---
 A device imagined for a multiple-choice conference. A collection of cardboard and paper objects manipulated by a physics popularizer during
 a lecture in which the audience is invited to vote on which path to take. The idea was to tell different stories linked to the discovery of magnetism, but above all to illustrate how scientific discoveries are made: sometimes by taking side roads.
-A project developed during my residency at [La Physique Autrement](https://hebergement.universite-paris-saclay.fr/supraconductivite/projet/toktoks/).
+A project developed during my residency at [La Physique Autrement](https://vulgarisation.fr/projet/bifurcations_quantiques/?lang=en).
 
-[see demo](https://youtu.be/uIqkitE1gqQ?feature=shared)
+[watch the conference](https://www.youtube.com/live/ildO7Hj1XpE)
