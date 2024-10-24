@@ -4,7 +4,7 @@ date: 2024-10-01T00:00:00.000Z
 lang: fr
 place: Orsay
 partners: Réalisé avec La Physique Autrement
-category: Stories & popularization
+category: récits & vulgarisation
 background: rgb(255, 188, 253)
 gallery: pluspetitexpose
 video: https://www.youtube.com/embed/xDJp8ZMEAzU?si=RueOodiaJwC09ivp
