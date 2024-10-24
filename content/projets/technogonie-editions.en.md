@@ -3,7 +3,7 @@ title: A TECHNOGONY – BOOK
 date: 2022-12-01T00:00:00.000Z
 lang: en
 place: Chaumont
-category: Editions
+category: Books
 background: rgb(220, 220, 220)
 gallery: 24_edition-technogonie
 ---
