@@ -5,7 +5,7 @@ lang: fr
 place: Orsay
 partners: Réalisé avec La Physique Autrement
 category: Stories & popularization
-background: rgb(255, 45, 0)
+background: rgb(255, 188, 253)
 gallery: pluspetitexpose
 video: https://www.youtube.com/embed/xDJp8ZMEAzU?si=RueOodiaJwC09ivp
 ---
