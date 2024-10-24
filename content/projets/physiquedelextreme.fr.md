@@ -6,7 +6,6 @@ place: Paris
 category: éditions
 background: rgb(188, 213, 255)
 gallery: physique-de-lextreme
-
 ---
 Illustrations et schémas du livre « La Physique de l’Extrême » de Julien Bobroff, paru chez Albin Michel.
 Ce livre raconte 11 expériences récentes en physique, qui ont poussé les chercheurs à battre des records :
