@@ -4,7 +4,7 @@ date: 2020-12-01T00:00:00.000Z
 lang: en
 place: Cité du design/ESADSE, Saint-Étienne, juin 2021
 partners: coordinated by Ernesto Oroza and Victoria Calligaro, with Merlin Andreae, Corentin Brûlé et Antoine Bouré.
-category: editions
+category: books
 background: rgb(73, 163, 255)
 gallery: azimuts_52
 ---

@@ -4,7 +4,7 @@ date: 2019-03-01T00:00:00.000Z
 lang: en
 place: Vendée 
 partners: Site Saint-Sauveur, with Clara+Clémence 
-category: editions
+category: books
 background: rgb(133, 255, 205)
 gallery: 17_clara_clemence
 ---

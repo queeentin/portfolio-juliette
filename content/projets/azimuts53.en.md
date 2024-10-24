@@ -4,7 +4,7 @@ date: 2021-06-01T00:00:00.000Z
 lang: en
 place: Cité du design/ESADSE, Saint-Étienne
 partners: Coordonné par Ernesto Oroza et Victoria Calligaro
-category: editions
+category: books
 background: rgb(207, 133, 255)
 gallery: azimuts_53
 ---

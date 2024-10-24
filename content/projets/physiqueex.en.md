@@ -3,7 +3,7 @@ title:  Illustrations – "La Physique de l'extrême"
 date: 2024-09-01T00:00:00.000Z
 lang: en
 place: Paris
-category: editions
+category: books
 background: rgb(188, 213, 255)
 gallery: physique-de-lextreme
 ---
