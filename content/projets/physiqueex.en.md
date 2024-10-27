@@ -4,7 +4,7 @@ date: 2024-09-01T00:00:00.000Z
 lang: en
 place: Orsay
 partners: La physique autrement
-category: Books
+category: books
 background: rgb(188, 213, 255)
 gallery: physique-de-lextreme
 ---

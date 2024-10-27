@@ -1,6 +1,6 @@
 ---
 title: A TECHNOGONY
-date: 2022-01-01T00:00:00.000Z
+date: 2022-12-01T00:00:00.000Z
 lang: en
 place: Chaumont
 category: Stories & popularization
