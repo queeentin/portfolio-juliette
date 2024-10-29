@@ -8,4 +8,4 @@ category: éditions
 background: rgb(255, 255, 177)
 gallery: voltigeuse
 ---
-Premier numéro de « La Voltigeuse », un journal de quartier, qui retrace l’enquête documentaire menée dans le quartier du Gour de l’Arche, à Périgueux. Réalisé dans le cadre d’une résidence de [La Compagnie Ouïe/Dire](https://www.ouiedire.com/), avec [Louise Collet](https://www.louisecollet.com/) et  [Pablo Correa](https://www.atelierdepablo.com/fr/index.html) aux dessins et Marc Pichelin à l’écriture.
+Premier numéro de « La Voltigeuse », un journal de quartier, qui retrace une enquête documentaire menée dans le quartier du Gour de l’Arche, à Périgueux. Réalisé dans le cadre d’une résidence de [La Compagnie Ouïe/Dire](https://www.ouiedire.com/), avec [Louise Collet](https://www.louisecollet.com/) et  [Pablo Correa](https://www.atelierdepablo.com/fr/index.html) aux dessins et Marc Pichelin à l’écriture.
