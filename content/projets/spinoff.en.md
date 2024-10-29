@@ -1,5 +1,6 @@
 ---
 title:  About what's going on — spin OFF
+slug: spin OFF -en
 date: 2019-05-01T00:00:00.000Z
 lang: en
 place: Rachecourt-sur-Marne (42)

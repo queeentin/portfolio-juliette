@@ -1,5 +1,6 @@
 ---
 title:  About what's going on - Episode 1
+slug: episode 1 -en
 date: 2018-07-01T00:00:00.000Z
 lang: en
 place: Paris

@@ -1,5 +1,6 @@
 ---
 title: Azimuts nº52 – Continu, Design research journal of the Cité du Design/ESADSE
+slug: Azimuts nº52-en
 date: 2020-12-01T00:00:00.000Z
 lang: en
 place: Cité du design/ESADSE, Saint-Étienne, juin 2021

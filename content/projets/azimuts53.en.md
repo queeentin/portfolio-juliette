@@ -1,5 +1,6 @@
 ---
-title: Azimuts nº53 – Collect, Design research journal of the Cité du Design/ESADSE 
+title: Azimuts nº53 – Collect, Design research journal of the Cité du Design/ESADSE
+slug: Azimuts nº53 -en
 date: 2021-06-01T00:00:00.000Z
 lang: en
 place: Cité du design/ESADSE, Saint-Étienne

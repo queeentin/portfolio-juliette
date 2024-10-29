@@ -1,5 +1,6 @@
 ---
 title: Illustrations – "La Physique de l'extrême"
+slug: La Physique de l'extrême–en
 date: 2024-09-01T00:00:00.000Z
 lang: en
 place: Orsay

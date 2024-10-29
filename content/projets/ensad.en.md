@@ -1,5 +1,6 @@
 ---
 title: Visual identity for Ecole des Arts Décoratifs
+slug: ensad -en
 date: 2021-01-01T00:00:00.000Z
 lang: en
 place: Paris

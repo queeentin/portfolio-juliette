@@ -1,5 +1,6 @@
 ---
 title: Visual identity for the craft brewery "Brasserie de la Vanne" and its beer "La Cachalote"
+slug: cachalote -en
 date: 2021-06-01T00:00:00.000Z
 lang: en
 place: Cachan

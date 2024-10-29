@@ -1,5 +1,6 @@
 ---
 title:  Website for Alambic, theater company
+slug: alambic-en
 date: 2020-04-01T00:00:00.000Z
 lang: en
 place: Paris

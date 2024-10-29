@@ -1,5 +1,6 @@
 ---
 title: Bouphonie, an exhibition in 3 acts + 1
+slug: bouphonie -en
 date: 2021-01-01T00:00:00.000Z
 lang: en
 place: Saint-Denis
