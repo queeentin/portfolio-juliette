@@ -1,5 +1,6 @@
 ---
 title: AMIS DE LA BNF
+slug: amis de la bnf-en
 date: 2022-01-01T00:00:00.000Z
 lang: en
 place: Paris

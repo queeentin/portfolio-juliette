@@ -1,5 +1,6 @@
 ---
 title: About what's going on - Episode 2 - The museum of Damas
+slug: About what's going on -en
 date: 2021-01-01T00:00:00.000Z
 lang: en
 place: Paris
