@@ -1,5 +1,5 @@
 ---
-title: Theater:Vermitteln und Bilden
+title: Theater – Vermitteln und Bilden
 date: 2024-12-01T00:00:00.000Z
 lang: en
 place: Zürich, CH
