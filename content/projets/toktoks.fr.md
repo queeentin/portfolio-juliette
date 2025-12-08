@@ -4,7 +4,7 @@ date: 2023-07-01
 lang: fr
 place: Orsay
 partners: Avec La Physique Autrement
-category: récits & vulgarisation
+category: récits
 background: white
 gallery: toktoks
 ---

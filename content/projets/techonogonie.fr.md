@@ -3,7 +3,7 @@ title: UNE TECHNOGONIE
 date: 2022-12-01T00:00:00.000Z
 lang: fr
 place: Chaumont
-category: récits & vulgarisation
+category: récits
 background: linear-gradient(180deg, rgba(168,255,207,1) 0%, rgba(208,208,208,1) 31%, rgba(204,213,208,1) 78%, rgba(230,30,224,1) 99%)
 gallery: prospectives graphiques
 video: https://www.youtube.com/embed/bs6sziiTKG4?si=xZ_PgpG7HTbDTw6T

@@ -4,7 +4,7 @@ date: 2025-03-01T00:00:00.000Z
 lang: fr
 place: Paris
 partners: Avec Francesca Cozzolino et Coralie Maurin – Plateforme Art, Design et Société, ENSADlab
-category: récits & vulgarisation
+category: récits
 background: rgb(255, 246, 93)
 gallery: totomoxtle
 ---

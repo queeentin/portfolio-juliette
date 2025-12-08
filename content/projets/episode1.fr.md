@@ -4,7 +4,7 @@ date: 2018-07-01T00:00:00.000Z
 lang: fr
 place: Paris
 partners: Performance en collaboration avec Elisabetta Spaggiari
-category: récits & vulgarisation
+category: récits
 background: rgb(255, 45, 0)
 gallery: 14_a_propos_de_ce_qui_se_passe_ep1
 video: https://player.vimeo.com/video/281435217?

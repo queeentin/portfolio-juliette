@@ -4,7 +4,7 @@ date: 2023-06-01T00:00:00.000Z
 lang: fr
 place: Orsay
 partners: Avec La Physique Autrement
-category: récits & vulgarisation
+category: récits
 background: linear-gradient(90deg, rgba(255,189,239,1) 25%, rgba(180,238,255,1), 48%, rgba(229,230,229,1) 69%, rgba(34,122,75,1) 100%)
 gallery: bifurcations-quantiques
 ---
