@@ -160,12 +160,12 @@ a:hover{
 }
 
 .block h1{
-  font-size: 2em;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 
 .block h2{
-  font-size: 2em;
+  font-size: 1.5em;
   border-bottom: 1px solid black;
   margin-bottom: 1em;
   text-transform: uppercase;
@@ -214,12 +214,12 @@ figure figcaption{
 /* À propos */
 
 #intro p{
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 1.5em;
 }
 
 #intro ul{
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 
