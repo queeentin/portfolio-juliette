@@ -1,7 +1,7 @@
 ---
 title: Les cahiers de Martine
 date: 2026-09-01T00:00:00.000Z
-lang: fr
+lang: en
 place: Périgueux, FR
 partners: Éditions Ouïe/Dire
 category: éditions
